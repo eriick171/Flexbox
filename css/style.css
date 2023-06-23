@@ -1,0 +1,43 @@
+section {
+    display: flex;
+    height: 500px;
+    width: 100vw;
+    background-color: green;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+div {
+    height: 100px;
+    width: 100px;
+
+
+   /*Unidade Relativas*/
+
+    /*PX - ela e uma unidade fisica absoluta pixel e quantidade de ponto na tela que seria os pixel
+    height: 1000px;
+    width: 100px;*/
+
+
+    /*viewport height*/
+    /*height: 100vh;*/
+    /* height: 30vh; refem da altura da pagina do navegador "vh" sempre sera melhor usado em "HEIGHT"*/
+    
+    /*Porcentagem*/
+    /*width: 50%;*/
+
+    /*viewport width*/
+     /* width: 90vw;  "VW" ele e todo espaço da minha forma de visualizaçao do meu navegador e a % disponivel da minha visualizaçao.
+    "vw" sempre sera o tamanho da janela do navegador*/
+    
+
+    background-color: black;
+    border: 3px solid whitesmoke;
+
+    color: whitesmoke;
+    font-size: 25px;
+
+}
